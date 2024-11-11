@@ -73,6 +73,15 @@ char * substringSearchAA(char *target, char **lines, int size) {
 	return NULL;
 }
 
+char * linearSearchAA(char *target, char **lines, int size) {
+	for (int i = 0; i < size; i++) {
+		if (strstr(lines[i], target) == 0) {
+			return lines[i];
+		}
+	}
+	return NULL;
+}
+
 // Free the memory used by the array
 void freeAA(char ** arr, int size) {
 	for (int i = 0; i < size; i++) {
