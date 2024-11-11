@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
     // function from fileutil.h to find the hash.
     // If you find it, display the password and the hash.
     // Keep track of how many hashes were found.
+    
 
     // CHALLENGE1: Use binary search instead of linear search.
 
